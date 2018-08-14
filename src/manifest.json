@@ -1,0 +1,26 @@
+
+{
+    "name": "GSearch",
+    "author": "Jun-ichi OKADA",
+    "version": "1.0",
+	"locale": "ja",
+    "default_locale": "ja",
+    "description": "Google検索",
+    "icons":{
+        "16": "imgs/icon_16.png",
+        "32": "imgs/icon_32.png",
+        "48": "imgs/icon_48.png",
+        "128": "imgs/icon_128.png"
+    },
+
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },        
+
+    "permissions": [
+        "tabs", "*://*/*",
+        "contextMenus"
+    ],
+    "minimum_edge_version": "37.14316.1000.0"
+}
